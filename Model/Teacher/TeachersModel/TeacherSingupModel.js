@@ -46,7 +46,7 @@ const teacherSingupSchema = new mongoose.Schema({
     required: true,
   },
 
-  img: {},
+  // img: {},
 });
 const teacher = new mongoose.model("teacher", teacherSingupSchema);
 module.exports = teacher;
